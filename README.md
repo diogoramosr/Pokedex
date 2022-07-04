@@ -8,7 +8,7 @@
 </p>
 
 <div align="center">
-  <img width="90%" src="https://user-images.githubusercontent.com/100318805/177070193-1421f541-1471-41ce-b3a7-27a050107b17.png">
+  <img width="100%" src="https://user-images.githubusercontent.com/100318805/177070193-1421f541-1471-41ce-b3a7-27a050107b17.png">
 </div>
 
 ## :rocket: Tecnologias
