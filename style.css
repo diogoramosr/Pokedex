@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+	background: linear-gradient(to right, rgb(197, 230, 236), rgb(239, 187, 230));
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    flex-wrap: wrap;
+	justify-content: center;
+	margin: 0;
+    font-family: 'Lato';
+}
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 30px 2%;
+    background-color: white;
+}
+.container h1{
+    font-size: 50px;
+    letter-spacing: 3px;
+    color: #ef5350;
+    text-align: center;
+}
+.pokemon-boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.card{
+    width: 26%;
+    height: 11rem;
+    margin: 20px 2%;
+    text-align: center;
+    border-radius: 10px;
+}
+.card:hover{
+	animation: bounce 0.5s linear;
+}
+.card-title{
+	text-transform: capitalize;
+	font-size: 24px;
+}
+.card-subtitle{
+    margin-top: 5px;
+	font-weight: lighter;
+    font-size: 17px;
+}
+.card-img{
+    width: 100%;
+}
+.card-image {
+    height: 100px;
+}
+.steel {
+	background-color: #f4f4f4;
+}
+.fire {
+	background-color: #FDDFDF;
+}
+.grass {
+	background-color: #DEFDE0;
+}
+.electric {
+	background-color: #FCF7DE;
+}
+.water, .ice {
+	background-color: #DEF3FD;
+}
+.ground {
+	background-color: #f4e7da;
+}
+.rock {
+	background-color: #d5d5d4;
+}
+.fairy {
+	background-color: #fceaff;
+}
+.poison {
+	background-color: #98d7a5;
+}
+.bug {
+	background-color: #f8d5a3;
+}
+.dragon {
+	background-color: #97b3e6;
+}
+.psychic {
+	background-color: #eaeda1;
+}
+.flying {
+	background-color: #F5F5F5;
+}
+.fighting {
+	background-color: #E6E0D4;
+}
+.normal {
+	background-color: #F5F5F5;
+}
+
+@keyframes bounce {
+	20% {
+			transform: translateY(-6px);
+	}
+	40% {
+			transform: translateY(0px);
+	}
+
+	80% {
+			transform: translateY(-2px);
+	}
+	100% {
+			transform: translateY(0);
+	}
+}
+
+@media screen and (max-width:768px){
+    .card{
+        width: 100%;
+        text-align: center;
+    }
+    .card img{
+        max-width: 300px;
+    }
+}
